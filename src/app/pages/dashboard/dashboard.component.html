@@ -1,0 +1,55 @@
+<div id="listaMenu">
+
+    <div id="logotipo" class="logotipo"></div>
+
+    <span class="spanMenu"> <ul id = "dashboardMenu">Dashboard</ul> </span>
+    <span class="spanMenu" (click)="PageCliente()"> <ul id = "clientesMenu">Clientes</ul> </span>
+    <span class="spanMenu"> <ul id = "parceirosMenu">Parceiros</ul> </span>
+    <span class="spanMenu"> <ul id = "relatoriosMenu">Relatórios</ul> </span>
+    <span class="spanMenu"> <ul id = "configuracoesMenu">Configurações</ul> </span>
+
+    <div id="dashboardIcon"></div>
+    <div id="clienteIcon"></div>
+    <div id="parceirosIcon"></div>
+    <div id="relatoriosIcon"></div>
+    <div id="configuracoesIcon"></div>
+</div>
+
+<div id="principal">
+
+    <h1 id="titulo">Dashboard</h1>
+
+    <div>
+        <select id="tempoPassado" class="textoTempo">
+            <option class="textoTempo" selected disabled value="">Selecione</option>
+            <option class="textoTempo">Ultimos 30 dias</option>
+            <option class="textoTempo">Ultimos 3 meses</option>
+            <option class="textoTempo"> Ultimos 6 meses</option>
+            <option class="textoTempo">Ultimos 12 meses</option>
+        </select>
+
+    </div>
+    <div class="imagemverde1"></div>
+    <div class="imagemverde2"></div>
+    <div class="imagemverde3"></div>
+
+    <div class="clientestatus1"></div>
+    <div class="clientestatus2"></div>
+    <div class="clientestatus3"></div>
+    
+    <div class="divStatusClientes" id="ClientesAtivos">
+        <P class="textoStatusClientes">Clientes ativos</P>
+        <p class="numeroStatusClientes" id="numeroClientesAtivos">34</p>
+    </div>
+
+    <div class="divStatusClientes"id="ClientesEmAberto">
+        <P class="textoStatusClientes" id="">Clientes em aberto</P>
+        <p class="numeroStatusClientes" id="numeroClientesEmAberto">8</p>
+    </div>
+
+    <div class="divStatusClientes"id="ClientesInativos">
+        <P class="textoStatusClientes">Clientes inativos</P>
+        <p class="numeroStatusClientes" id="numeroClientesInativos">11</p>
+    </div>
+
+</div>

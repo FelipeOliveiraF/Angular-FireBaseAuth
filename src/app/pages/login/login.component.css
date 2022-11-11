@@ -1,0 +1,119 @@
+.logotipo{
+    position: absolute;
+    width: 171px;
+    height: 64px;
+    left: 67px;
+    top: 60px;
+
+    background: url(../../../assets/icons/logotipo.png);
+}
+.login{
+    position: absolute;
+    width: 362px;
+    height: 63px;
+    left: 93px;
+    top: 267px;
+
+    font-family: 'Optima';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+
+    color: #626262;
+}
+
+.labelEmail{
+    position: absolute;
+    width: 247px;
+    height: 63px;
+    left: 93px;
+    top: 360px;
+}
+
+.labelSenha{
+    position: absolute;
+    width: 247px;
+    height: 63px;
+    left: 93px;
+    top: 493px;
+}
+
+.inputEmail{
+    box-sizing: border-box;
+    position: absolute;
+    width: 479px;
+    height: 76px;
+    left: 93px;
+    top: 402px;
+
+    border: 1px solid #D7D3D3;
+    border-radius: 17px;
+}
+
+.inputSenha{
+    box-sizing: border-box;
+    position: absolute;
+    width: 479px;
+    height: 76px;
+    left: 93px;
+    top: 535px;
+
+    border: 1px solid #D7D3D3;
+    border-radius: 17px;
+}
+
+.esqueceuSenha{
+    position: absolute;
+    width: 247px;
+    height: 63px;
+    left: 412px;
+    top: 624px;
+
+    font-family: 'Optima';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #7ACA3E;
+    cursor: pointer;
+}
+
+.btnEntrar{    
+    position: absolute;
+    width: 479px;
+    height: 76px;
+    left: 93px;
+    top: 681px;
+
+    background: #7ACA3E;
+    border-radius: 17px;
+    cursor: pointer;
+}
+
+.retanguloLateral{
+    position: absolute;
+    width: 960px;
+    height: 100%;
+    left: 50%;
+    top: 0px;
+
+    background: linear-gradient(180deg, #7ACA3E 0%, #295607 100%);
+    border-radius: 61px 0px 0px 61px;
+}
+
+.container{
+    position: absolute;
+    left: 10%;
+}
+
+.simbolo{
+    position: absolute;
+    width: 133px;
+    height: 237px;
+    left: 50%;
+    top: 372px;
+
+    background: url(../../../assets/icons/simbolo.png);
+}

@@ -1,0 +1,346 @@
+#listaMenu{
+    position: absolute;
+    width: 369px;
+    height: 982px;
+    left: -35px;
+    top: 0px;
+    
+    background: rgba(177, 177, 177, 0.14);
+    border-radius: 61px;
+}
+
+.logotipo{
+    position: absolute;
+    width: 171px;
+    height: 64px;
+    left: 67px;
+    top: 60px;
+
+    background: url(../../../assets/icons/logotipo.png);
+}
+
+#dashboardMenu{
+    position: absolute;
+    width: 138px;
+    height: 31px;
+    left: 117px;
+    top: 220px;
+    
+    font-family: 'Optima';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    
+    color: #7ACA3E;
+}
+
+#dashboardIcon{
+    position: absolute;
+    width: 19px;
+    height: 19px;
+    left: 100px;
+    top: 250px;
+
+background: url(../../../assets/icons/dashboardIcon.png);
+}
+
+#clientesMenu{
+    position: absolute;
+    width: 138px;
+    height: 31px;
+    left: 117px;
+    top: 284px;
+    
+    font-family: 'Optima';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    
+    color: #626262;
+}
+
+#clienteIcon{
+    position: absolute;
+    width: 22px;
+    height: 23.52px;
+    left: 100px;
+    top: 313px;;
+
+background: url(../../../assets/icons/clienteIcon.png);
+}
+
+
+
+#parceirosMenu{
+    position: absolute;
+    width: 138px;
+    height: 31px;
+    left: 117px;
+    top: 348px;
+    
+    font-family: 'Optima';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    
+    color: #626262;
+    
+}
+
+#parceirosIcon{
+    position: absolute;
+    width: 27px;
+    height: 24px;
+    left: 100px;
+    top: 376px;
+
+    background: url(../../../assets/icons/parceirosIcon.png);
+}
+
+#relatoriosMenu{
+    position: absolute;
+    width: 138px;
+    height: 31px;
+    left: 117px;
+    top: 412px;
+    
+    font-family: 'Optima';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    
+    color: #626262;
+}
+
+#relatoriosIcon{
+    position: absolute;
+width: 22px;
+height: 22px;
+left: 100px;
+top: 439px;
+
+background: url(../../../assets/icons/relatoriosIcon.png);
+}
+
+#configuracoesMenu{
+    position: absolute;
+    width: 158px;
+    height: 31px;
+    left: 117px;
+    top: 476px;
+    
+    font-family: 'Optima';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    
+    color: #626262;
+    
+}
+
+#configuracoesIcon{
+    position: absolute;
+width: 22px;
+height: 22px;
+left: 100px;
+top: 502px;
+
+background: url(../../../assets/icons/configIcon.png);
+}
+
+.spanMenu{
+    cursor: pointer;
+}
+
+
+#titulo{
+    position: absolute;
+width: 236px;
+height: 31px;
+left: 394px;
+top: 138px;
+
+font-family: 'Optima';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 39px;
+
+color: #626262;
+}
+
+.imagemverde1{
+    position: absolute;
+width: 73px;
+height: 71px;
+left: 432px;
+top: 270px;
+
+background: rgba(122, 202, 62, 0.28);
+border-radius: 18px;
+}
+
+.imagemverde2{
+    position: absolute;
+width: 73px;
+height: 71px;
+left: 794px;
+top: 270px;
+
+background: rgba(122, 202, 62, 0.28);
+border-radius: 18px;
+}
+
+.imagemverde3{
+    position: absolute;
+    width: 73px;
+    height: 71px;
+    left: 1157px;
+    top: 270px;
+    
+    background: rgba(122, 202, 62, 0.28);
+    border-radius: 18px;
+}
+
+.clientestatus1{
+    position: absolute;
+    width: 37px;
+    height: 33px;
+    left: 450px;
+    top: 289px;
+    
+    background: url(../../../assets/icons/DashBoardStatusCliente.png);
+}
+.clientestatus2{
+    position: absolute;
+width: 37px;
+height: 33px;
+left: 812px;
+top: 289px;
+    background: url(../../../assets/icons/DashBoardStatusCliente.png);
+}
+.clientestatus3{
+    position: absolute;
+width: 37px;
+height: 33px;
+left: 1175px;
+top: 289px;
+
+    background: url(../../../assets/icons/DashBoardStatusCliente.png);
+}
+
+.divStatusClientes{
+    box-sizing: border-box;
+
+border: 1px solid #CDCDCD;
+border-radius: 30px;
+}
+
+#ClientesAtivos{
+    position: absolute;
+width: 328px;
+height: 122px;
+left: 393px;
+top: 244px;
+}
+
+#ClientesEmAberto{
+    
+position: absolute;
+width: 328px;
+height: 122px;
+left: 760px;
+top: 244px;
+}
+
+#ClientesInativos{
+    position: absolute;
+width: 328px;
+height: 122px;
+left: 1127px;
+top: 244px;
+}
+.textoStatusClientes{
+    position: absolute;
+    width: 182px;
+    height: 31px;
+    left: 140px;
+    top: 30px;
+    
+    font-family: 'Optima';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    
+    color: #ABAAAA;
+
+}
+
+.numeroStatusClientes{
+
+    font-family: 'Optima';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 40px;
+    
+    color: #295607;
+}
+
+#numeroClientesAtivos{
+    position: absolute;
+    width: 38px;
+    height: 20px;
+    left: 140px;
+    top:50px;
+}
+
+#numeroClientesEmAberto{
+position: absolute;
+width: 38px;
+height: 20px;
+left: 140px;
+top: 50px;
+}
+
+#numeroClientesInativos{
+    position: absolute;
+width: 38px;
+height: 20px;
+left: 140px;
+top: 50px;
+}
+
+#tempoPassado{
+    box-sizing: border-box;
+
+position: absolute;
+width: 169px;
+height: 47px;
+left: 901px;
+top: 145px;
+
+border: 1px solid #CDCDCD;
+border-radius: 15px;
+
+
+}
+
+.textoTempo{
+    font-family: 'Optima';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #ABAAAA;
+}
